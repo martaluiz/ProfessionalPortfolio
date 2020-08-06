@@ -16,7 +16,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,6 +38,12 @@ body, html {
 /* Third image (Contact) */
 .bgimg-3 {
   background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Hiring) */
+.bgimg-4 {
+  background-image: url("images/parallax2.jpg");
   min-height: 400px;
 }
 
@@ -167,40 +173,70 @@ body, html {
       This pandemic will affect our economic, public health of our communities. Moments like these requires a collective effort to help those in more need. 
       Thinking of that, me and my final project group decided to apply our technology skills as Web Developers to help people who were affected by COVID-19, with high risk for severe illness.
       VolunHero is all about making volunteering a fun social experience. The Web App platform connects volunteers and coronavirus vulnerable population. Volunteers will be able to choose a user’s list, do the shopping and then deliver the groceries right to any local senior’s door all for free. Offering the service as a preventative measure with the goal of helping people stay home and stay healthy.  Full Stack: SCSS, JS, React, Storybook, Express, Node, SQL. (My Github link to see my project code https://github.com/martaluiz/volunHero).">
+      <p>VolunHero </p>
     </div>
 
     <div class="w3-col m3">
-      <img src="/images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+      <img src="images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Smart TODO List.
+       A smart, auto-categorizing todo list app. The user simply has to add the name of the thing, and it gets put into the correct list. 
+       Each todo created should be categorized as one of:
+
+      1- Film / Series (To watch)
+      2- Restaurants, cafes, etc. (To eat)
+      3- Books (To read)
+      4- Products (To buy). Full Stack: HTML, CSS, JS, Express, Node">
+      <p>Smart TODO List </p>
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+      <img src="images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="SCHEDULER. 
+      Interview Scheduler is a Front-End React application to practice the fundamentals of the framework. 
+      Full Stack: HTML, CSS, JS, React, Jest, Storybook, Cypress">
+      <p>Scheduler </p>
     </div>
 
     <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+      <img src="images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tweeter. Simple, single-page Twitter clone
+
+      Full Stack: HTML, CSS, JS, Express, Node, body-parser">
+      <p>Tweeter </p>
     </div>
   </div>
 
-  <div class="w3-row-padding w3-center w3-section">
+  <!-- <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
       <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-    </div>
+    </div> -->
 
-    <div class="w3-col m3">
+    <!-- <div class="w3-col m3">
       <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-    </div>
+    </div> -->
 
-    <div class="w3-col m3">
+    <!-- <div class="w3-col m3">
       <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-    </div>
+    </div> -->
 
-    <div class="w3-col m3">
+    <!-- <div class="w3-col m3">
       <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-    </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+    </div> -->
+    <!-- <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
   </div>
 </div>
+
+<!-- Second Parallax Image with Hiring Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">INTERESTED IN WORK TOGETHER? LET'S HAVE A TALK!</span>
+  </div>
+</div>
+<!-- Container (Hiring Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Interested in working together? Let's have a talk!</h3>
+  <p class="w3-center"><em></em>Recently graduated from Lighthouse Labs with a Diploma in Full Stack Web Development, I am currently looking for a new role and would appreciate your support.</em></p> 
+  <p class="w3-center"><em></em> I am looking for opportunities and roles in web and software development to design, develop and deliver exceptional customer experiences. 
+    Highly motivated with strong interpersonal and presentation skills. Excels at both delivering independently or as part of a team. 
+    I bring a diverse background including legal experience as a lawyer, which gave me strong WRITTEN and VERBAL COMMUNICATION skills, also ANALYTICAL and LOGICAL reasoning,  that I am sure will contribute to pretty much any role.</em></p> 
+    <p class="w3-center"><em></em> Thank you in advance for any connections, advice, or opportunities you can offer.</em></p>
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
